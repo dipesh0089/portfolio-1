@@ -1,4 +1,4 @@
-/* header end */
+/* header start */
 
 @media(max-width: 500px)
 {
@@ -12,6 +12,15 @@
 
 /* second section start */
 
+@media(max-width: 600px)
+{
+    .second-section{width: 100%;}
+}
+@media(max-width: 500px)
+{
+    .second-section .cheap{top: 250px; left: 0px;}
+    .second-section .cheap{width: 100%;}
+}
 
 /* second section end */
 
@@ -42,6 +51,8 @@
         {
             .five-container .best-offers .best{width: 100%;}
             .section-co .cars1{width: 100%;}
+            
+            .cars1 .car-text .car-text-down .d2015{width: 100%;}
         }
 
 /* five section end */
@@ -51,6 +62,8 @@
 @media(max-width: 500px)
 {
     .pqtt .pqt{width: 100%;}
+    .pqt .textpqt{width: 100%;}
+    .textpqt .bns{padding-left: 350px;}
 }
 /* six section end */
 
@@ -112,7 +125,8 @@
 
 @media(max-width: 500px)
 {
-    .subscribe-section .input{width: 100%;}
+    .subscribe-section .input{width: 95%;}
+    .subscribe-section .input{top: 270px; left: 20px;}
 }
 
 
@@ -135,6 +149,8 @@
 @media(max-width: 500px)
         {
             .connectmain .connectdetail{width: 100%;}
+            .connectdetail .connect-detail-left{width: 100%;}
+            /* .connect-detail-left .textarea{columns:  */
         }
 
 /* touch with us end */

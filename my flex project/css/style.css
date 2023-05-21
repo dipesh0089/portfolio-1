@@ -13,7 +13,7 @@ header
 .logo
 {
     height: 85px;
-    border: 1px solid;
+    /* border: 1px solid; */
     background-color: white;
     /* width: 26.5%; */
     /* margin-left: 61px; */
@@ -107,16 +107,20 @@ header
     width: 185px;
     
     background-color: white;
+    
     position: absolute;
     top: 20px;
     left: -15px;
     display: none;
+    z-index: 1;
+
 }
 .nav .gt li .dropdown-home .js
 {
     /* border: 1px solid; */
     margin-left: 15px;
     margin-bottom: 22px;
+    margin-top: 22px;
     display: block;
 }
 .nav .gt li:hover .dropdown-home
@@ -189,6 +193,7 @@ header
             text-align: left;
             
         }
+       
         .cheap .cheaprental
         {
             /* background-color: greenyellow; */
@@ -474,11 +479,11 @@ header
         .five-container
         {
             /* height: 680px; */
-            background: gray;
+            /* background: gray; */
             text-align: center;
             font-family: sans-serif;
             /* padding-top: 40px; */
-            border: 1px solid;
+            /* border: 1px solid; */
         }
         .five-container h2
         {
@@ -494,7 +499,7 @@ header
         .five-container .best-offers
         {
             /* height: 70px; */
-            background-color: indigo;
+            /* background-color: indigo; */
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
@@ -529,7 +534,7 @@ header
         .five-container .section-co
         {
             /* height: 410px; */
-            background: burlywood;
+            /* background: burlywood; */
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
@@ -542,18 +547,18 @@ header
         {
             /* height: 380px; */
             /* width: 354px; */
-            background: cornflowerblue;
+            /* background: cornflowerblue; */
             border: 1px solid rgb(165, 171, 183);
             
         
-            margin: 0px 10px;
+            margin: 10px 10px;
             
         }
         .cars1 .car-image
         {
             height: 225px;
             /* width: 354px; */
-            background: orange;
+            /* background: orange; */
             background: url(../image/car-370x220x7-plbiaglbvvsg9w81aw1mk3i1xzzozhzdky67evisu4.jpg);
             background-size: 100% 100%;
             position: relative;
@@ -575,7 +580,7 @@ header
         {
             height: 70px;
             width: 70px;
-            background: chocolate;
+            /* background: chocolate; */
             border: 1px solid;
             text-align: center;
             padding: 4px 4px;
@@ -610,13 +615,13 @@ header
         {
             /* height: 155px; */
             /* width: 354px; */
-            background: red;
+            /* background: red; */
         }
         .cars1 .car-text .car-text-up
         {
             /* height: 120px; */
             /* width: 354px; */
-            background: gray;
+            /* background: gray; */
             text-align: center;
             padding: 10px;
         }
@@ -653,7 +658,7 @@ header
         {
             /* height: 35px; */
             /* width: 354px; */
-            background-color: yellow;
+            /* background-color: yellow; */
             display: flex;
             
             
@@ -662,7 +667,7 @@ header
         {
             /* height: 35px; */
             /* width: 88.5px; */
-            background: darkcyan;
+            /* background: darkcyan; */
             border: 1px solid rgb(165, 171, 183);
             color: rgb(165, 171, 183);
             text-align: center;
@@ -678,15 +683,17 @@ header
 
         .pqtt
         {
-            background: chocolate;
-            border: 2px solid;
+            /* background: chocolate; */
+            background: rgba(119, 136, 153, 0.15);
+            /* border: 2px solid; */
             padding: 20px;
         }
         .pqtt .pqt
         {
-            height: 300px;
-            background: lightgray;
+            /* height: 300px; */
+            /* background: lightgray; */
             display: flex;
+            flex-wrap: wrap;
             justify-content: center;
             /* padding: 150px; */
             align-items: center;
@@ -701,16 +708,17 @@ header
             background: url(../image/testimonial-140x140x1-150x150-plbiagl930lg7pqg7w7dn2bu3i4tupcvopba3sk5fc.jpg);
             background-size: 100% 100%;
             margin: 0 10px;
-            border: 1px solid;
+            /* border: 1px solid; */
         }
         .pqt .textpqt
         {
-            height: 250px;
-            width: 770px;
-            background: magenta;
+            /* height: 250px; */
+            /* width: 770px; */
+            /* background: magenta; */
             margin: 0 10px;
             padding: 10px;
-            border: 1px solid;
+            /* border: 1px solid; */
+        
         }
         .textpqt p
         {
@@ -1305,10 +1313,10 @@ header
         {
             height: 350px;
             
-            background: rgba(119, 136, 153, 0.30);
+            background: rgba(119, 136, 153, 0.15);
             font-family: sans-serif;
             text-align: center;
-            padding: 30px 50px; 
+            padding: 30px 20px; 
             position: relative;
             
             
@@ -1327,7 +1335,7 @@ header
         {
             /* margin-top: 25px; */
             padding: 15px 50px;
-            border: 1px solid;
+            /* border: 1px solid; */
             
         }
         .subscribe-section .input
@@ -1337,7 +1345,7 @@ header
             position: absolute;
             top: 180px;
             left: 230px;
-            border: 1px solid;
+            /* border: 1px solid; */
             /* background: red; */
             display: flex;
         }
@@ -1487,40 +1495,46 @@ header
             /* height: 500px; */
             /* width: 100%; */
             /* background: burlywood; */
-            border: 1px solid;
+            /* border: 1px solid; */
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
+            /* padding: 0 13px; */
         }
         .connectdetail .connect-detail-left
         {
             /* height: 400px; */
             /* width: 50%; */
-            background: crimson;
+            /* background: crimson; */
             padding: 20px 20px;
             
         }
 
          .connect-detail-left .rowline
         {
-            width: 566px;
+            /* width: 566px; */
+            /* width: 100%; */
             display: flex;
+            
             justify-content: space-between;
             /* border: 1px solid; */
             margin-bottom: 20px;
             height: 30px;
         }
-        .connect-detail-left .rowline input
+        .connect-detail-left .rowline .liness input
         {
             height: 30px;
-            width: 260px;
+            /* width: 260px; */
+            width: 190px;
+            
             background: rgba(7, 7, 7, 0.50);
             outline: none;
             border: none;
         }
         .connect-detail-left .subject 
         {
-            width: 566px;
+            /* width: 566px; */
+            width: 100%;
             height: 30px;
             /* border: 1px solid; */
             margin-bottom: 20px;
@@ -1536,7 +1550,8 @@ header
         }
         .connect-detail-left .subject button
         {
-            width: 566px;
+            /* width: 566px; */
+            width: 100%;
             height: 30px;
             border: none;
             font-weight: bold;
@@ -1548,9 +1563,9 @@ header
             background: red;
         }
 
-        .connect-detail-left .textarea
+        .connect-detail-left .textareaa
         {
-            width: 570px;
+            /* width: 570px; */
             /* border: 1px solid; */
             margin: 20px 0;
         }
@@ -1559,6 +1574,8 @@ header
             outline: none;
             border: none;
             background: rgba(7, 7, 7, 0.50);
+            width: 100%;
+            height: 100%;
         }
         
 
@@ -1611,7 +1628,7 @@ header
         {
             /* height: 410px; */
             /* width: 100%; */
-            border: 1px solid;
+            /* border: 1px solid; */
             /* background: slateblue; */
             
             padding-top: 35px;
